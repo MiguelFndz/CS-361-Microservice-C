@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get("/dates/:date", ExercisesController.getExercisesByDate);
 
-router.get("/sort/date", ExercisesController.sortExercisesByDate);
+router.get("/sorted/date", ExercisesController.sortExercisesByDate);
 
 router.get("", ExercisesController.getExercises);
 
